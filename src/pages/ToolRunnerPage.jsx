@@ -19,7 +19,7 @@ export default function ToolRunnerPage() {
     setLoading(true);
     setResult(null);
 
-    const response = await fetch(`http://127.0.0.1:8000${tool.endpoint}`, {
+    const response = await fetch(`https://agentflow-tito.onrender.com${tool.endpoint}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ query: input })
