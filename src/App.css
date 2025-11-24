@@ -250,3 +250,45 @@ body {
         margin: 0 5px 10px;
     }
 }
+.runner-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #6a0dad;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.runner-input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.run-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #6a0dad;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.runner-output {
+  margin-top: 30px;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}

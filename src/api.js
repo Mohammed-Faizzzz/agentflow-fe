@@ -1,4 +1,4 @@
-const BASE_URL = "http://127.0.0.1:8000"; // Adjust if deployed
+const BASE_URL = "https://agentflow-tito.onrender.com"; // Adjust if deployed
 
 export const callAPI = async (endpoint, data) => {
   try {
